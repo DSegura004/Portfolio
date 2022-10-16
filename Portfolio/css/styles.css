@@ -1,0 +1,41 @@
+/*
+Author: Dorian Segura
+Date: 9/30/22
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, nav, main, footer, h1, div, img {
+		margin:0;
+		padding: 0;
+		border: 0;
+}
+
+/* Style rule for images */
+img {
+		max-width: 100%;
+		display: block;
+}
+
+/* Style rule for navigation area */
+nav {
+    text-decoration: none;
+}
+
+nav ul {
+		list-style-type: none;
+}
+
+nav li a {
+		text-decoration: none;
+}
+/* Style rules for main content */
+main {
+		font-size: 1.15em;
+		font-family: 'Roboto Slab', serif;
+}
+
+/* Style rules for footer content */
+footer p a {
+		text-decoration: none;
+}
