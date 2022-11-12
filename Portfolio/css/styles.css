@@ -39,3 +39,40 @@ main {
 footer p a {
 		text-decoration: none;
 }
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+
+  /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+      display: block;
+    }
+    
+    .mobile {
+      display: none;
+    }
+
+  /* Tablet Viewport: Style rules for main content area */
+    main ul {
+      margin: 0 0 4% 10%;
+    }
+}
+
+/* Media Query for Desktop Viewport */ 
+@media screen and (min-width: 1015px), print {
+  
+	/* Desktop Viewport: Style rules for form elements */ 
+	form {
+		width: auto; 
+	}
+	
+	.form-grid {
+		display: grid; 
+		grid-template-columns: auto auto auto; 
+		grid-gap: 20px; 
+	}
+	
+	.btn {
+		grid-column: 1 / span 3; 
+	}
+}
