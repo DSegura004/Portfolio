@@ -15,6 +15,7 @@ body, nav, main, footer, h1, div, img {
 img {
 		max-width: 100%;
 		display: block;
+		transform: rotate(0.017turn);
 }
 
 /* Style rule for navigation area */
